@@ -1,30 +1,12 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@yusufginanjar 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-1
-00yusufginanjar/TomorrowsHealthcareFull
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-TomorrowsHealthcareFull/assets/css/style.css
-@yusufginanjar yusufginanjar Add files via upload
-6507bf8 13 days ago
-288 lines (228 sloc)  4.21 KB
-  
 /* navbar */
 .navbar{
 	position: relative;
     z-index: 1;   
 }
 
+.navbar-brand h3{
+	color: white;
+}
 
 .navbar img{
 	width: 80px;
@@ -36,7 +18,7 @@ TomorrowsHealthcareFull/assets/css/style.css
 .jumbotron{
 	background-image: url(../img/jumbotron3.jpg);
 	background-size: cover;
-	height: 337px;
+	min-height: 337px;
 	text-align: left;
 	position: relative;
 	color: white;
@@ -64,6 +46,12 @@ TomorrowsHealthcareFull/assets/css/style.css
 	color: white;
 }
 
+.jumbotron .logo img{
+	height: 200px;
+	margin-bottom: 20px;
+	margin-left: 7vw;
+}
+
 .jumbotron h1{
 	font-size: 48px;
 }
@@ -72,6 +60,9 @@ TomorrowsHealthcareFull/assets/css/style.css
 	font-weight: bold;
 }
 
+.jumbotron .btn-success{
+	margin-left: 25px;
+}
 
 /* welcome */
 .welcome p{
@@ -113,7 +104,7 @@ TomorrowsHealthcareFull/assets/css/style.css
 
 .info-panel p{
 	font-size: 18px;
-	color: #acacac;
+	color: #333;
 	margin-top: 5px;
 }
 
@@ -164,7 +155,7 @@ TomorrowsHealthcareFull/assets/css/style.css
 .footer{
 	margin-top: 30px;;
 	background-color: #2d2c2c;
-	height: 130px;
+	min-height: 130px;
 }
 
 .footer{
@@ -249,12 +240,18 @@ br {
     .jumbotron{
 		margin-top: -75px;
 		text-align: left;
-		height: 337px;
+		min-height: 170px;
 		
 	}
 
+	.jumbotron .logo img{
+		height: 140px;
+		margin-top:40px;
+		margin-left: 0;
+	}
+
 	.jumbotron .display-4{
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 
 	.jumbotron h1{
@@ -307,15 +304,3 @@ br {
 	}
 
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
